@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E08FFA01DE6060500795598 /* RegisterSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E08FF9F1DE6060500795598 /* RegisterSections.swift */; };
+		2E186BB31E1372E3000E396A /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E186BB21E1372E3000E396A /* CGFloatExtension.swift */; };
+		2E1CA3DF1D6E9815001F9136 /* RefreshData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CA3DE1D6E9815001F9136 /* RefreshData.swift */; };
+		2E2070E31DBC259300FE4A14 /* ScheduleCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2070E21DBC259300FE4A14 /* ScheduleCourse.swift */; };
+		2E20ACA91E0E9A4300CF0EDF /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20ACA81E0E9A4300CF0EDF /* Singleton.swift */; };
+		2E20ACAD1E0EAEAC00CF0EDF /* LoadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20ACAC1E0EAEAC00CF0EDF /* LoadStatus.swift */; };
+		2E2D856D1E19E7F600C87E92 /* ScheduleParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D856C1E19E7F600C87E92 /* ScheduleParserDelegate.swift */; };
+		2E2D85701E19E80B00C87E92 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D856E1E19E80B00C87E92 /* Calendar.swift */; };
+		2E2D85711E19E80B00C87E92 /* CalendarBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D856F1E19E80B00C87E92 /* CalendarBackground.swift */; };
+		2E399A8E1DCD3319002E7E2A /* SelectSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E399A8D1DCD3319002E7E2A /* SelectSchedule.swift */; };
+		2E5353DC1E00A5A00017BEF9 /* FilterSchedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5353DB1E00A5A00017BEF9 /* FilterSchedules.swift */; };
+		2E5488ED1E0AF2F50050C6DF /* NoSchedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5488EC1E0AF2F50050C6DF /* NoSchedules.swift */; };
+		2E555A311D7133A900CE7F7E /* Semester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E555A301D7133A900CE7F7E /* Semester.swift */; };
+		2E55E8851DFF6BE50052E02D /* MySchedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55E8841DFF6BE50052E02D /* MySchedules.swift */; };
+		2E59E8741E3ACD870071A2C2 /* updates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E59E8731E3ACD870071A2C2 /* updates.txt */; };
+		2E5BA7011DAFE61600619FF6 /* SectionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BA7001DAFE61600619FF6 /* SectionDetails.swift */; };
+		2E5BA7031DAFECD000619FF6 /* CourseDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BA7021DAFECD000619FF6 /* CourseDetails.swift */; };
+		2E5BA70C1DB0161A00619FF6 /* PlannedCourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BA70B1DB0161A00619FF6 /* PlannedCourses.swift */; };
+		2E5BA7111DB0221400619FF6 /* PlannedCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BA7101DB0221400619FF6 /* PlannedCourse.swift */; };
+		2E83E5AE1E0CAF1000D309D9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E83E5AD1E0CAF1000D309D9 /* Settings.swift */; };
+		2E83E5B21E0CBD4A00D309D9 /* NewCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E83E5B11E0CBD4A00D309D9 /* NewCalendar.swift */; };
+		2E8560151E13532900D497D2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8560141E13532900D497D2 /* UIViewExtension.swift */; };
+		2E8FFB9B1DF76FB800142662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8FFB9A1DF76FB800142662 /* AppDelegate.swift */; };
+		2E8FFB9D1DF76FC600142662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FFB9C1DF76FC600142662 /* Assets.xcassets */; };
+		2E8FFB9F1DF76FDC00142662 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FFB9E1DF76FDC00142662 /* Info.plist */; };
+		2E8FFBA11DF7700F00142662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FFBA01DF7700F00142662 /* LaunchScreen.storyboard */; };
+		2E959C281DE956770096D3EE /* ScheduleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E959C271DE956770096D3EE /* ScheduleDetails.swift */; };
+		2EA7D2BE1DAED9D50063B91B /* CourseSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7D2BD1DAED9D50063B91B /* CourseSelection.swift */; };
+		2EAC542F1DBD919A000EB003 /* ScheduleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC542E1DBD919A000EB003 /* ScheduleSection.swift */; };
+		2EAC54311DBD91B3000EB003 /* MeetingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC54301DBD91B3000EB003 /* MeetingTime.swift */; };
+		2EAC54331DBD91C6000EB003 /* Instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC54321DBD91C6000EB003 /* Instructor.swift */; };
+		2EAC54351DBD91EF000EB003 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC54341DBD91EF000EB003 /* Section.swift */; };
+		2EAC54371DBD9201000EB003 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC54361DBD9201000EB003 /* Course.swift */; };
+		2EAC54391DBD9210000EB003 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC54381DBD9210000EB003 /* Subject.swift */; };
+		2EC865E01DD43C1B002A7A06 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC865DF1DD43C1B002A7A06 /* Register.swift */; };
+		2EDCF3AC1E155EF30086E03F /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCF3AB1E155EF30086E03F /* Onboarding1.swift */; };
+		2EDCF3B01E1588150086E03F /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCF3AF1E1588150086E03F /* Onboarding.swift */; };
+		2EDCF3B21E158ABB0086E03F /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCF3B11E158ABB0086E03F /* Onboarding2.swift */; };
+		2EDCF3B41E158ACF0086E03F /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCF3B31E158ACF0086E03F /* Onboarding3.swift */; };
+		2EE42D611DFA69D4009BFA75 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE42D601DFA69D4009BFA75 /* Search.swift */; };
+		2EE42D641DFB92AD009BFA75 /* CalendarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE42D631DFB92AC009BFA75 /* CalendarSelection.swift */; };
+		2EE42D661DFB946F009BFA75 /* ExportSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE42D651DFB946F009BFA75 /* ExportSchedule.swift */; };
+		2EE6AC931E14700C005DCCB2 /* AddClass-Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6AC921E14700C005DCCB2 /* AddClass-Subjects.swift */; };
+		2EE6AC951E1472D9005DCCB2 /* AddClass-Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6AC941E1472D9005DCCB2 /* AddClass-Courses.swift */; };
+		2EE6AC971E1473C7005DCCB2 /* AddClass-Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6AC961E1473C7005DCCB2 /* AddClass-Sections.swift */; };
+		2EEB50F01D84EFC200F3BE09 /* SubjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB50EF1D84EFC200F3BE09 /* SubjectSelection.swift */; };
+		2EF3A7471DF87FDF004905D8 /* MySchedulesEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3A7411DF87FDF004905D8 /* MySchedulesEntity+CoreDataClass.swift */; };
+		2EF3A74B1DF87FDF004905D8 /* ScheduleEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3A7451DF87FDF004905D8 /* ScheduleEntity+CoreDataClass.swift */; };
+		2EF3A74C1DF87FDF004905D8 /* ScheduleEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3A7461DF87FDF004905D8 /* ScheduleEntity+CoreDataProperties.swift */; };
+		2EF3A7501DF8801A004905D8 /* MySchedulesEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3A74D1DF8801A004905D8 /* MySchedulesEntity+CoreDataProperties.swift */; };
+		2EF3A7511DF8801A004905D8 /* PlannedCoursesEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3A74E1DF8801A004905D8 /* PlannedCoursesEntity+CoreDataClass.swift */; };
+		2EF3A7521DF8801A004905D8 /* PlannedCoursesEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3A74F1DF8801A004905D8 /* PlannedCoursesEntity+CoreDataProperties.swift */; };
+		2EF3A7551DF88045004905D8 /* UNM_Course_Mate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3A7531DF88045004905D8 /* UNM_Course_Mate.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E08FF9F1DE6060500795598 /* RegisterSections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterSections.swift; sourceTree = "<group>"; };
+		2E186BB21E1372E3000E396A /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		2E1CA3DE1D6E9815001F9136 /* RefreshData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshData.swift; sourceTree = "<group>"; };
+		2E2070E21DBC259300FE4A14 /* ScheduleCourse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCourse.swift; sourceTree = "<group>"; };
+		2E20ACA81E0E9A4300CF0EDF /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		2E20ACAC1E0EAEAC00CF0EDF /* LoadStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadStatus.swift; sourceTree = "<group>"; };
+		2E2D856C1E19E7F600C87E92 /* ScheduleParserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleParserDelegate.swift; sourceTree = "<group>"; };
+		2E2D856E1E19E80B00C87E92 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		2E2D856F1E19E80B00C87E92 /* CalendarBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarBackground.swift; sourceTree = "<group>"; };
+		2E399A8D1DCD3319002E7E2A /* SelectSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSchedule.swift; sourceTree = "<group>"; };
+		2E43A8E81E384CE000824156 /* UNM Course Mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UNM Course Mate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5353DB1E00A5A00017BEF9 /* FilterSchedules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSchedules.swift; sourceTree = "<group>"; };
+		2E5488EC1E0AF2F50050C6DF /* NoSchedules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoSchedules.swift; sourceTree = "<group>"; };
+		2E555A301D7133A900CE7F7E /* Semester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semester.swift; sourceTree = "<group>"; };
+		2E55E8841DFF6BE50052E02D /* MySchedules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySchedules.swift; sourceTree = "<group>"; };
+		2E59E8731E3ACD870071A2C2 /* updates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = updates.txt; sourceTree = "<group>"; };
+		2E5BA7001DAFE61600619FF6 /* SectionDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionDetails.swift; sourceTree = "<group>"; };
+		2E5BA7021DAFECD000619FF6 /* CourseDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetails.swift; sourceTree = "<group>"; };
+		2E5BA70B1DB0161A00619FF6 /* PlannedCourses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlannedCourses.swift; sourceTree = "<group>"; };
+		2E5BA7101DB0221400619FF6 /* PlannedCourse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlannedCourse.swift; sourceTree = "<group>"; };
+		2E83E5AD1E0CAF1000D309D9 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2E83E5B11E0CBD4A00D309D9 /* NewCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCalendar.swift; sourceTree = "<group>"; };
+		2E8560141E13532900D497D2 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		2E8FFB9A1DF76FB800142662 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E8FFB9C1DF76FC600142662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8FFB9E1DF76FDC00142662 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8FFBA01DF7700F00142662 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E959C271DE956770096D3EE /* ScheduleDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDetails.swift; sourceTree = "<group>"; };
+		2EA7D2BD1DAED9D50063B91B /* CourseSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSelection.swift; sourceTree = "<group>"; };
+		2EAC542E1DBD919A000EB003 /* ScheduleSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleSection.swift; sourceTree = "<group>"; };
+		2EAC54301DBD91B3000EB003 /* MeetingTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingTime.swift; sourceTree = "<group>"; };
+		2EAC54321DBD91C6000EB003 /* Instructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instructor.swift; sourceTree = "<group>"; };
+		2EAC54341DBD91EF000EB003 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		2EAC54361DBD9201000EB003 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		2EAC54381DBD9210000EB003 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		2EC865DF1DD43C1B002A7A06 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		2EDCF3AB1E155EF30086E03F /* Onboarding1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
+		2EDCF3AF1E1588150086E03F /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		2EDCF3B11E158ABB0086E03F /* Onboarding2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
+		2EDCF3B31E158ACF0086E03F /* Onboarding3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
+		2EE42D601DFA69D4009BFA75 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		2EE42D631DFB92AC009BFA75 /* CalendarSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarSelection.swift; sourceTree = "<group>"; };
+		2EE42D651DFB946F009BFA75 /* ExportSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportSchedule.swift; sourceTree = "<group>"; };
+		2EE6AC921E14700C005DCCB2 /* AddClass-Subjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddClass-Subjects.swift"; sourceTree = "<group>"; };
+		2EE6AC941E1472D9005DCCB2 /* AddClass-Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddClass-Courses.swift"; sourceTree = "<group>"; };
+		2EE6AC961E1473C7005DCCB2 /* AddClass-Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddClass-Sections.swift"; sourceTree = "<group>"; };
+		2EEB50EF1D84EFC200F3BE09 /* SubjectSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectSelection.swift; sourceTree = "<group>"; };
+		2EF3A7411DF87FDF004905D8 /* MySchedulesEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MySchedulesEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2EF3A7451DF87FDF004905D8 /* ScheduleEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScheduleEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2EF3A7461DF87FDF004905D8 /* ScheduleEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScheduleEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2EF3A74D1DF8801A004905D8 /* MySchedulesEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MySchedulesEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2EF3A74E1DF8801A004905D8 /* PlannedCoursesEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlannedCoursesEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2EF3A74F1DF8801A004905D8 /* PlannedCoursesEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlannedCoursesEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2EF3A7541DF88045004905D8 /* UNM_Course_Mate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UNM_Course_Mate.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB1F6DC1D6E7FDB00BB27B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5BA7041DB012B600619FF6 /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				2E1CA3DE1D6E9815001F9136 /* RefreshData.swift */,
+				2E2D856C1E19E7F600C87E92 /* ScheduleParserDelegate.swift */,
+				2EF3A7531DF88045004905D8 /* UNM_Course_Mate.xcdatamodeld */,
+				2EF3A7411DF87FDF004905D8 /* MySchedulesEntity+CoreDataClass.swift */,
+				2EF3A74D1DF8801A004905D8 /* MySchedulesEntity+CoreDataProperties.swift */,
+				2EF3A74E1DF8801A004905D8 /* PlannedCoursesEntity+CoreDataClass.swift */,
+				2EF3A74F1DF8801A004905D8 /* PlannedCoursesEntity+CoreDataProperties.swift */,
+				2EF3A7451DF87FDF004905D8 /* ScheduleEntity+CoreDataClass.swift */,
+				2EF3A7461DF87FDF004905D8 /* ScheduleEntity+CoreDataProperties.swift */,
+			);
+			name = "Data Management";
+			sourceTree = "<group>";
+		};
+		2E5BA7071DB013EA00619FF6 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB50EF1D84EFC200F3BE09 /* SubjectSelection.swift */,
+				2E83E5AD1E0CAF1000D309D9 /* Settings.swift */,
+				2EE42D601DFA69D4009BFA75 /* Search.swift */,
+				2EA7D2BD1DAED9D50063B91B /* CourseSelection.swift */,
+				2E5BA7021DAFECD000619FF6 /* CourseDetails.swift */,
+				2E5BA7001DAFE61600619FF6 /* SectionDetails.swift */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+		2E5BA7081DB0146200619FF6 /* Planned Courses */ = {
+			isa = PBXGroup;
+			children = (
+				2E5BA70B1DB0161A00619FF6 /* PlannedCourses.swift */,
+				2E5488EC1E0AF2F50050C6DF /* NoSchedules.swift */,
+				2E5353DB1E00A5A00017BEF9 /* FilterSchedules.swift */,
+				2E399A8D1DCD3319002E7E2A /* SelectSchedule.swift */,
+				2E2D856E1E19E80B00C87E92 /* Calendar.swift */,
+				2E2D856F1E19E80B00C87E92 /* CalendarBackground.swift */,
+				2E08FF9F1DE6060500795598 /* RegisterSections.swift */,
+				2EC865DF1DD43C1B002A7A06 /* Register.swift */,
+			);
+			name = "Planned Courses";
+			sourceTree = "<group>";
+		};
+		2E5BA7121DB0235000619FF6 /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				2E555A301D7133A900CE7F7E /* Semester.swift */,
+				2EAC54381DBD9210000EB003 /* Subject.swift */,
+				2EAC54361DBD9201000EB003 /* Course.swift */,
+				2EAC54341DBD91EF000EB003 /* Section.swift */,
+				2EAC54301DBD91B3000EB003 /* MeetingTime.swift */,
+				2EAC54321DBD91C6000EB003 /* Instructor.swift */,
+				2E20ACAC1E0EAEAC00CF0EDF /* LoadStatus.swift */,
+				2E5BA7101DB0221400619FF6 /* PlannedCourse.swift */,
+				2E2070E21DBC259300FE4A14 /* ScheduleCourse.swift */,
+				2EAC542E1DBD919A000EB003 /* ScheduleSection.swift */,
+				2E8560141E13532900D497D2 /* UIViewExtension.swift */,
+				2E186BB21E1372E3000E396A /* CGFloatExtension.swift */,
+			);
+			name = "Data Types";
+			sourceTree = "<group>";
+		};
+		2EB1F6D61D6E7FDB00BB27B0 = {
+			isa = PBXGroup;
+			children = (
+				2EB1F6E11D6E7FDB00BB27B0 /* UNM Course Mate */,
+				2E43A8E81E384CE000824156 /* UNM Course Mate.app */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB1F6E11D6E7FDB00BB27B0 /* UNM Course Mate */ = {
+			isa = PBXGroup;
+			children = (
+				2E8FFB9A1DF76FB800142662 /* AppDelegate.swift */,
+				2E59E8731E3ACD870071A2C2 /* updates.txt */,
+				2E20ACA81E0E9A4300CF0EDF /* Singleton.swift */,
+				2E8FFB9E1DF76FDC00142662 /* Info.plist */,
+				2E8FFBA01DF7700F00142662 /* LaunchScreen.storyboard */,
+				2EDCF3AA1E155D750086E03F /* Onboarding */,
+				2E5BA7041DB012B600619FF6 /* Data Management */,
+				2EE42D621DFB928A009BFA75 /* My Schedules */,
+				2E5BA7071DB013EA00619FF6 /* Catalog */,
+				2E5BA7081DB0146200619FF6 /* Planned Courses */,
+				2E5BA7121DB0235000619FF6 /* Data Types */,
+				2E8FFB9C1DF76FC600142662 /* Assets.xcassets */,
+			);
+			path = "UNM Course Mate";
+			sourceTree = "<group>";
+		};
+		2EDCF3AA1E155D750086E03F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2EDCF3AF1E1588150086E03F /* Onboarding.swift */,
+				2EDCF3AB1E155EF30086E03F /* Onboarding1.swift */,
+				2EDCF3B11E158ABB0086E03F /* Onboarding2.swift */,
+				2EDCF3B31E158ACF0086E03F /* Onboarding3.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		2EE42D621DFB928A009BFA75 /* My Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				2E55E8841DFF6BE50052E02D /* MySchedules.swift */,
+				2E959C271DE956770096D3EE /* ScheduleDetails.swift */,
+				2EE6AC921E14700C005DCCB2 /* AddClass-Subjects.swift */,
+				2EE6AC941E1472D9005DCCB2 /* AddClass-Courses.swift */,
+				2EE6AC961E1473C7005DCCB2 /* AddClass-Sections.swift */,
+				2EE42D631DFB92AC009BFA75 /* CalendarSelection.swift */,
+				2E83E5B11E0CBD4A00D309D9 /* NewCalendar.swift */,
+				2EE42D651DFB946F009BFA75 /* ExportSchedule.swift */,
+			);
+			name = "My Schedules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB1F6DE1D6E7FDB00BB27B0 /* UNM Course Mate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB1F6F41D6E7FDB00BB27B0 /* Build configuration list for PBXNativeTarget "UNM Course Mate" */;
+			buildPhases = (
+				2EB1F6DB1D6E7FDB00BB27B0 /* Sources */,
+				2EB1F6DC1D6E7FDB00BB27B0 /* Frameworks */,
+				2EB1F6DD1D6E7FDB00BB27B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UNM Course Mate";
+			productName = "Class Finder";
+			productReference = 2E43A8E81E384CE000824156 /* UNM Course Mate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB1F6D71D6E7FDB00BB27B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Brennenberkley;
+				TargetAttributes = {
+					2EB1F6DE1D6E7FDB00BB27B0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83FYXVZ5NM;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 2EB1F6DA1D6E7FDB00BB27B0 /* Build configuration list for PBXProject "UNM Course Mate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB1F6D61D6E7FDB00BB27B0;
+			productRefGroup = 2EB1F6D61D6E7FDB00BB27B0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB1F6DE1D6E7FDB00BB27B0 /* UNM Course Mate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB1F6DD1D6E7FDB00BB27B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8FFB9F1DF76FDC00142662 /* Info.plist in Resources */,
+				2E8FFBA11DF7700F00142662 /* LaunchScreen.storyboard in Resources */,
+				2E8FFB9D1DF76FC600142662 /* Assets.xcassets in Resources */,
+				2E59E8741E3ACD870071A2C2 /* updates.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB1F6DB1D6E7FDB00BB27B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE42D611DFA69D4009BFA75 /* Search.swift in Sources */,
+				2E8FFB9B1DF76FB800142662 /* AppDelegate.swift in Sources */,
+				2EE6AC971E1473C7005DCCB2 /* AddClass-Sections.swift in Sources */,
+				2E5BA7011DAFE61600619FF6 /* SectionDetails.swift in Sources */,
+				2EDCF3AC1E155EF30086E03F /* Onboarding1.swift in Sources */,
+				2E399A8E1DCD3319002E7E2A /* SelectSchedule.swift in Sources */,
+				2EE42D641DFB92AD009BFA75 /* CalendarSelection.swift in Sources */,
+				2EAC54391DBD9210000EB003 /* Subject.swift in Sources */,
+				2E2070E31DBC259300FE4A14 /* ScheduleCourse.swift in Sources */,
+				2E555A311D7133A900CE7F7E /* Semester.swift in Sources */,
+				2E186BB31E1372E3000E396A /* CGFloatExtension.swift in Sources */,
+				2E2D85711E19E80B00C87E92 /* CalendarBackground.swift in Sources */,
+				2E5BA7031DAFECD000619FF6 /* CourseDetails.swift in Sources */,
+				2E08FFA01DE6060500795598 /* RegisterSections.swift in Sources */,
+				2EAC54371DBD9201000EB003 /* Course.swift in Sources */,
+				2E5BA70C1DB0161A00619FF6 /* PlannedCourses.swift in Sources */,
+				2EF3A74C1DF87FDF004905D8 /* ScheduleEntity+CoreDataProperties.swift in Sources */,
+				2EF3A7521DF8801A004905D8 /* PlannedCoursesEntity+CoreDataProperties.swift in Sources */,
+				2E83E5B21E0CBD4A00D309D9 /* NewCalendar.swift in Sources */,
+				2E55E8851DFF6BE50052E02D /* MySchedules.swift in Sources */,
+				2E2D85701E19E80B00C87E92 /* Calendar.swift in Sources */,
+				2E83E5AE1E0CAF1000D309D9 /* Settings.swift in Sources */,
+				2EF3A7551DF88045004905D8 /* UNM_Course_Mate.xcdatamodeld in Sources */,
+				2EE42D661DFB946F009BFA75 /* ExportSchedule.swift in Sources */,
+				2E5353DC1E00A5A00017BEF9 /* FilterSchedules.swift in Sources */,
+				2EAC54351DBD91EF000EB003 /* Section.swift in Sources */,
+				2EE6AC931E14700C005DCCB2 /* AddClass-Subjects.swift in Sources */,
+				2E20ACAD1E0EAEAC00CF0EDF /* LoadStatus.swift in Sources */,
+				2EF3A7471DF87FDF004905D8 /* MySchedulesEntity+CoreDataClass.swift in Sources */,
+				2EDCF3B01E1588150086E03F /* Onboarding.swift in Sources */,
+				2EC865E01DD43C1B002A7A06 /* Register.swift in Sources */,
+				2EDCF3B41E158ACF0086E03F /* Onboarding3.swift in Sources */,
+				2EF3A7501DF8801A004905D8 /* MySchedulesEntity+CoreDataProperties.swift in Sources */,
+				2E5BA7111DB0221400619FF6 /* PlannedCourse.swift in Sources */,
+				2EF3A7511DF8801A004905D8 /* PlannedCoursesEntity+CoreDataClass.swift in Sources */,
+				2EAC54311DBD91B3000EB003 /* MeetingTime.swift in Sources */,
+				2E2D856D1E19E7F600C87E92 /* ScheduleParserDelegate.swift in Sources */,
+				2EA7D2BE1DAED9D50063B91B /* CourseSelection.swift in Sources */,
+				2E959C281DE956770096D3EE /* ScheduleDetails.swift in Sources */,
+				2E8560151E13532900D497D2 /* UIViewExtension.swift in Sources */,
+				2E20ACA91E0E9A4300CF0EDF /* Singleton.swift in Sources */,
+				2EAC542F1DBD919A000EB003 /* ScheduleSection.swift in Sources */,
+				2EE6AC951E1472D9005DCCB2 /* AddClass-Courses.swift in Sources */,
+				2EEB50F01D84EFC200F3BE09 /* SubjectSelection.swift in Sources */,
+				2EF3A74B1DF87FDF004905D8 /* ScheduleEntity+CoreDataClass.swift in Sources */,
+				2EDCF3B21E158ABB0086E03F /* Onboarding2.swift in Sources */,
+				2EAC54331DBD91C6000EB003 /* Instructor.swift in Sources */,
+				2E5488ED1E0AF2F50050C6DF /* NoSchedules.swift in Sources */,
+				2E1CA3DF1D6E9815001F9136 /* RefreshData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EB1F6F21D6E7FDB00BB27B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EB1F6F31D6E7FDB00BB27B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EB1F6F51D6E7FDB00BB27B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 83FYXVZ5NM;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "UNM Course Mate/info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brennenberkley.unmcoursemate;
+				PRODUCT_NAME = "UNM Course Mate";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2EB1F6F61D6E7FDB00BB27B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 83FYXVZ5NM;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "UNM Course Mate/info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brennenberkley.unmcoursemate;
+				PRODUCT_NAME = "UNM Course Mate";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB1F6DA1D6E7FDB00BB27B0 /* Build configuration list for PBXProject "UNM Course Mate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB1F6F21D6E7FDB00BB27B0 /* Debug */,
+				2EB1F6F31D6E7FDB00BB27B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB1F6F41D6E7FDB00BB27B0 /* Build configuration list for PBXNativeTarget "UNM Course Mate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB1F6F51D6E7FDB00BB27B0 /* Debug */,
+				2EB1F6F61D6E7FDB00BB27B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2EF3A7531DF88045004905D8 /* UNM_Course_Mate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2EF3A7541DF88045004905D8 /* UNM_Course_Mate.xcdatamodel */,
+			);
+			currentVersion = 2EF3A7541DF88045004905D8 /* UNM_Course_Mate.xcdatamodel */;
+			path = UNM_Course_Mate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2EB1F6D71D6E7FDB00BB27B0 /* Project object */;
+}

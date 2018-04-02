@@ -1,0 +1,6 @@
+VERSION 1.0
+- initial release
+- adding courses to my schedule manually was not saved      1-26-17
+- timezone is now strictly set to America/Denver            1-26-17
+- fixed crash when refreshing data in the background        1-26-17
+- added button link to website in settings                  1-26-17
